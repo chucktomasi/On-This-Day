@@ -112,7 +112,7 @@ Parser.prototype = {
 		gs.debug('parseInputText(): ' + list.length);
 		// var regPat = /^(\d+)\s.\s(.*)$/;
 		var regPat = /(\d+)(\sBC)?\s.\s?(.*)/;
-		var type = 'Event'; // Default Event type unless otherwise specified
+		var type = 'events'; // Default Event type unless otherwise specified
 		var sys_class_name = EVENT_TABLE;
 
 		for (var i = 0; i < list.length; i++) {
@@ -143,29 +143,37 @@ Parser.prototype = {
 
 			if (line == '')
 				continue;
+			
+			if (line == 'Holidays and observances')
+				break;
 
 			var part = line.match(regPat);
 			// var event = new GlideRecord(this.eventTable);
 			// If it's a birthday or death, populate the date from the text
 			// (b. \d+) or (d. \d+) and save that part to the 'date' field
 			// event.newRecord();
-			event.year = part[1];
-			if (part[2] && part[2].trim() == 'BC')
-				event.year *= -1;
+			try {
+				event.year = part[1];
+				if (part[2] && part[2].trim() == 'BC')
+					event.year *= -1;
 
-			event.type = type;
-			event.sys_class_name = sys_class_name;
-			event.text = part[3].trim();
-			event.page = this.pageID;
-			var filter = new Filter(event.type);
+				event.type = type;
+				event.sys_class_name = sys_class_name;
+				event.text = part[3].trim();
+				event.page = this.pageID;
+				var filter = new Filter(event.type);
 
-			event.review = filter.activeType();
-			if (event.review) {
-				event.review = !filter.filterMatch(event.text);
+				event.review = filter.activeType();
+				if (event.review) {
+					event.review = !filter.filterMatch(event.text);
+				}
+				gs.debug('parseInputText(): type=' + event.type + ' sys_class_name=' +
+						 event.sys_class_name + ' text=' + event.text);
+				this._createRecord(event);
+
+			} catch (e) {
+				gs.error('error parsing: ' + line);
 			}
-			gs.debug('parseInputText(): type=' + event.type + ' sys_class_name=' +
-			   event.sys_class_name + ' text=' + event.text);
-			this._createRecord(event);
 
 		}
 	},
@@ -338,7 +346,7 @@ Parser.prototype = {
         <sys_created_on>2016-10-01 13:45:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3c54ad4067122200ca735bb557415a91</sys_id>
-        <sys_mod_count>140</sys_mod_count>
+        <sys_mod_count>143</sys_mod_count>
         <sys_name>Parser</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy>read</sys_policy>
@@ -346,6 +354,6 @@ Parser.prototype = {
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_update_name>sys_script_include_3c54ad4067122200ca735bb557415a91</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2019-07-06 18:44:36</sys_updated_on>
+        <sys_updated_on>2019-08-03 15:39:25</sys_updated_on>
     </sys_script_include>
 </record_update>
