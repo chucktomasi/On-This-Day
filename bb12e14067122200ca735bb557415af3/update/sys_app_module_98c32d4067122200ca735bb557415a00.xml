@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="sn_otd_event">type=events^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="events"/>
+        <filter table="sn_otd_event">type=events^EQ<item display_value="Event" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="events"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>

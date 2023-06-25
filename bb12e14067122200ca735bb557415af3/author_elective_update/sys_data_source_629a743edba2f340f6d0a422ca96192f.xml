@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>attachment://sys_data_source:629a743edba2f340f6d0a422ca96192f/</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>Excel</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>1</header_row>
+        <import_set_table_label>Learn JavaScript Import</import_set_table_label>
+        <import_set_table_name>sn_otd_learn_javascript_import</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Learn JavaScript</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-13 14:44:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>629a743edba2f340f6d0a422ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learn JavaScript</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_data_source_629a743edba2f340f6d0a422ca96192f</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-13 14:44:38</sys_updated_on>
+        <table_name/>
+        <type>File</type>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On This Day">bb12e14067122200ca735bb557415af3</application>
+        <file_path/>
+        <instance_id>68a41580dbb02e40bb2edba8bf96196b</instance_id>
+        <instance_name>democt1</instance_name>
+        <name>sys_data_source_629a743edba2f340f6d0a422ca96192f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source"><sys_data_source action="INSERT_OR_UPDATE"><category/><connection_timeout>0</connection_timeout><connection_url>attachment://sys_data_source:629a743edba2f340f6d0a422ca96192f/</connection_url><connection_url_parameters/><csv_delimiter/><database_name/><database_port/><discard_arrays>true</discard_arrays><expand_node_children>false</expand_node_children><file_path/><file_retrieval_method>Attachment</file_retrieval_method><format>Excel</format><glide_keystore>false</glide_keystore><header_row>1</header_row><import_set_table_label>Learn JavaScript Import</import_set_table_label><import_set_table_name>sn_otd_learn_javascript_import</import_set_table_name><instance_name/><jdbc_password/><jdbc_server/><jdbc_user_name/><jpath_root_node/><last_run_database_field/><last_run_datetime/><ldap_target/><maximum_rows/><mid_server/><name>Learn JavaScript</name><oracle_port>1521</oracle_port><oracle_sid>orcl</oracle_sid><properties/><query>All Rows from Table</query><query_timeout>0</query_timeout><scp_authentication>Username and Password</scp_authentication><scp_password/><scp_port/><scp_server/><scp_user_name/><sheet_number>1</sheet_number><sql_statement/><ssh_keyfile_path/><sys_class_name>sys_data_source</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2019-07-13 14:44:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>629a743edba2f340f6d0a422ca96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Learn JavaScript</sys_name><sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope><sys_update_name>sys_data_source_629a743edba2f340f6d0a422ca96192f</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2019-07-13 14:44:38</sys_updated_on><table_name/><type>File</type><use_integrated_authentication>false</use_integrated_authentication><use_last_run_datetime>false</use_last_run_datetime><xpath_root_node/><zipped>false</zipped></sys_data_source></record_update>]]></payload>
+        <payload_hash>-1342947560</payload_hash>
+        <record_name>Learn JavaScript</record_name>
+        <reverted_from/>
+        <source>9131d17ddb640300e5aef4a51f9619bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-13 14:44:38</sys_created_on>
+        <sys_id>f9da30badba2f340f6d0a422ca961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bebcb02e20000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-13 14:44:38</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>b1da30ba07a2f3405c68b8e875c03256</update_guid>
+        <update_guid_history>b1da30ba07a2f3405c68b8e875c03256:-1342947560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-13 14:47:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>42694a00d24f4e1ba3605dad953417a9</sys_id>
+        <sys_metadata>629a743edba2f340f6d0a422ca96192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learn JavaScript</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_scope_delete display_value="">0689ceaf32894ff4bbc1897bba8a6a09</sys_scope_delete>
+        <sys_update_name>sys_data_source_629a743edba2f340f6d0a422ca96192f</sys_update_name>
+        <sys_update_version display_value="sys_data_source_629a743edba2f340f6d0a422ca96192f">f9da30badba2f340f6d0a422ca961956</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-13 14:47:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

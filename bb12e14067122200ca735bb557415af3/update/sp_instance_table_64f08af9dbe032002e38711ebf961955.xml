@@ -6,7 +6,7 @@
         <css/>
         <display_field>born</display_field>
         <field_list>name,title,died</field_list>
-        <filter table="sn_otd_person">type=deaths^review=true^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="deaths"/>
+        <filter table="sn_otd_person">type=deaths^review=true^EQ<item display_value="Death" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="deaths"/>
             <item endquery="false" field="review" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>

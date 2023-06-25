@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
     <sys_ui_message action="INSERT_OR_UPDATE">
         <application/>
+        <code/>
+        <commented_message/>
         <key>sn_otd_gcal_error</key>
         <language>en</language>
         <message>Error publishing Google calendar event for {0}.</message>

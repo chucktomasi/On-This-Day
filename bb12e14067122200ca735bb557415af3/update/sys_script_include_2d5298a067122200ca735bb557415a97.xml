@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>sn_otd.Filter</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description>Filter utilities for the On This Day App</description>
         <name>Filter</name>

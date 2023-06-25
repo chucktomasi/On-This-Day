@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3927e292dba9270077386583ca961990</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_cls_state_rule">
+    <x_snc_cls_state_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_cls_episode">community_urlISEMPTY^EQ<item endquery="false" field="community_url" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name>Community</name>
+        <order>200</order>
+        <state>community</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-11-05 20:07:19</sys_created_on>
+        <sys_id>3927e292dba9270077386583ca961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-11-05 20:07:19</sys_updated_on>
+    </x_snc_cls_state_rule>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-06 21:11:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c793d66db4b3300a8a216370596195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_metadata_link_7c793d66db4b3300a8a216370596195b</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-06 21:11:06</sys_updated_on>
+        <tablename>x_snc_cls_state_rule</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>83a09235db3dfb80a8a21637059619ab</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_cls_idea">
+    <x_snc_cls_idea action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>How I had to fix the export of sys_attachment_doc by changing addEncodedQuery('sys_attachmentIN' + array) to addQuery('sys_attachment', 'IN', array)</description>
+        <episode display_value="NOWCommunity Live Stream - 2019-06-14">dd8cd719db0637c0a8a2163705961901</episode>
+        <name>addEncodedQuery() vs. addQuery()</name>
+        <script/>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-06-03 11:39:45</sys_created_on>
+        <sys_id>83a09235db3dfb80a8a21637059619ab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-06-14 14:26:53</sys_updated_on>
+    </x_snc_cls_idea>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-06 21:11:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4299bd66db4b3300a8a2163705961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>addEncodedQuery() vs. addQuery()</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_metadata_link_4299bd66db4b3300a8a2163705961959</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-06 21:11:44</sys_updated_on>
+        <tablename>x_snc_cls_idea</tablename>
+    </sys_metadata_link>
+</record_update>

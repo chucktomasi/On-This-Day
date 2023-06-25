@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f766ded2dbc5bb00f6d0a422ca961921</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_snc_cls_idea"&gt;
+    &lt;x_snc_cls_idea action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;description&gt;Example: triggering a processor&lt;/description&gt;
+        &lt;episode display_value="NOWCommunity Live Stream - 2019-04-29"&gt;3dc362aedb41fb00f6d0a422ca9619f1&lt;/episode&gt;
+        &lt;name&gt;Getting a sys_id from the URL in a client script&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[function callExportJeopardyGame() {
+	var url = new GlideURL('export_jeopardy_game.do');
+	url.addParam('sysparm_sys_id', g_form.getUniqueValue());
+	var frame = top.gsft_main;
+	if (!frame){
+		frame = top;
+	}
+	
+	frame.location = url.getURL();
+}]]&gt;&lt;/script&gt;
+        &lt;sys_created_by&gt;chuck.tomasi&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-04-28 18:34:37&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;f766ded2dbc5bb00f6d0a422ca961921&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chuck.tomasi&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-04-30 12:03:30&lt;/sys_updated_on&gt;
+    &lt;/x_snc_cls_idea&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-06 21:11:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>91a9fd66db4b3300a8a2163705961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Getting a sys_id from the URL in a client script</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_metadata_link_91a9fd66db4b3300a8a2163705961905</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-06 21:11:57</sys_updated_on>
+        <tablename>x_snc_cls_idea</tablename>
+    </sys_metadata_link>
+</record_update>

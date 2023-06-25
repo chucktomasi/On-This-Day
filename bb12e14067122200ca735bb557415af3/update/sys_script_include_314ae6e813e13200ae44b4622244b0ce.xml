@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>sn_otd.Parser2</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description>Updated parser that uses MediaWiki REST API to retrieve information w/less RegEx use.</description>
         <name>Parser2</name>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>870c7c8bdb10e30077386583ca961957</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_snc_cls_post_template"&gt;
+    &lt;x_snc_cls_post_template action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;html&gt;&lt;![CDATA[&lt;p&gt;Episode topics include: ${html_topic_list}&lt;/p&gt;
+&lt;p&gt;Code snippets can be found in the &lt;a href="${repo_url}" target="_blank" rel="noopener noreferrer nofollow"&gt;GitHub repository.&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;&lt;iframe id="CmCaReT" src="https://www.youtube.com/embed/${youtube_id}" width="640" height="360" allowfullscreen=""&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;p&gt;Community Live Stream is a show for ServiceNow admins and developers who want to go beyond getting answers in the community. Gain insight and knowledge from the experts about how those answers are obtained and apply them to your role to be more effective. Find us on &lt;a href="https://www.youtube.com/playlist?playnext&amp;#61;1&amp;amp;list&amp;#61;PLkGSnjw5y2U5jTsF7i2yRZPdk3lm88SN8&amp;amp;index&amp;#61;1" target="_blank" rel="noopener noreferrer nofollow"&gt;YouTube&lt;/a&gt; or &lt;a href="https://twitch.tv/nowcommunity" target="_blank" rel="noopener noreferrer nofollow"&gt;Twitch&lt;/a&gt;.&lt;/p&gt;]]&gt;&lt;/html&gt;
+        &lt;name&gt;Default CLS&lt;/name&gt;
+        &lt;sys_created_by&gt;chuck.tomasi&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-06 16:57:17&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;870c7c8bdb10e30077386583ca961957&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chuck.tomasi&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-13 21:48:06&lt;/sys_updated_on&gt;
+    &lt;/x_snc_cls_post_template&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-06 21:10:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0969f966db4b3300a8a2163705961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default CLS</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_metadata_link_0969f966db4b3300a8a2163705961919</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-06 21:10:50</sys_updated_on>
+        <tablename>x_snc_cls_post_template</tablename>
+    </sys_metadata_link>
+</record_update>

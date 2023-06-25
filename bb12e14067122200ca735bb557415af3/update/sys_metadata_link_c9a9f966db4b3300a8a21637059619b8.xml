@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2e33926ddbecf300a8a2163705961928</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_cls_idea">
+    <x_snc_cls_idea action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Find a way to get rid of the potential topics document that you've been dragging around for months. Capture them in this app instead!</description>
+        <episode display_value="NOWCommunity Live Stream - 2019-04-01">1e289aaddba03700f6d0a422ca9619b8</episode>
+        <name>Create table for ideas</name>
+        <script/>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-04-01 13:53:21</sys_created_on>
+        <sys_id>2e33926ddbecf300a8a2163705961928</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-04-01 14:16:20</sys_updated_on>
+    </x_snc_cls_idea>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-06 21:11:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c9a9f966db4b3300a8a21637059619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create table for ideas</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_metadata_link_c9a9f966db4b3300a8a21637059619b8</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-06 21:11:56</sys_updated_on>
+        <tablename>x_snc_cls_idea</tablename>
+    </sys_metadata_link>
+</record_update>

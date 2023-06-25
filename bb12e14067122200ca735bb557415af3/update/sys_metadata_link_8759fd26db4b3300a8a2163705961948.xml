@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>90dbf88bdb10e30077386583ca96193d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_cls_youtube_template">
+    <x_snc_cls_youtube_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Default CLS</name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-06 16:55:53</sys_created_on>
+        <sys_id>90dbf88bdb10e30077386583ca96193d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-10-31 15:33:25</sys_updated_on>
+        <text>Episode topics include:&#13;
+${text_topic_list}&#13;
+Code snippets shown in this video are available at: ${repo_url}&#13;
+Join the discussion on the community: ${community_url}</text>
+    </x_snc_cls_youtube_template>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-06 21:10:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8759fd26db4b3300a8a2163705961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default CLS</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_metadata_link_8759fd26db4b3300a8a2163705961948</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-06 21:10:42</sys_updated_on>
+        <tablename>x_snc_cls_youtube_template</tablename>
+    </sys_metadata_link>
+</record_update>
