@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a3967d75dbe032002e38711ebf9619bd</sp_column>
+        <sp_widget display_value="OTD Details">eb96b575dbe032002e38711ebf96195f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-26 23:07:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab4a4671db2432002e38711ebf96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sp_instance_ab4a4671db2432002e38711ebf96197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-26 23:07:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On This Day">bb12e14067122200ca735bb557415af3</application>
+        <file_path/>
+        <instance_id>68a41580dbb02e40bb2edba8bf96196b</instance_id>
+        <instance_name>democt1</instance_name>
+        <name>sp_instance_ab4a4671db2432002e38711ebf96197c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a3967d75dbe032002e38711ebf9619bd</sp_column>
+        <sp_widget display_value="OTD Details">eb96b575dbe032002e38711ebf96195f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-26 23:07:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab4a4671db2432002e38711ebf96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sp_instance_ab4a4671db2432002e38711ebf96197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-26 23:07:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+</record_update>]]></payload>
+        <payload_hash>1070561126</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a4d0ddf1dba40300e5aef4a51f96196f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-08-13 15:07:49</sys_created_on>
+        <sys_id>42d05135dba40300e5aef4a51f961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>15ddc2308700000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-08-13 15:07:49</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>02d05135daa403000689896fafe93231</update_guid>
+        <update_guid_history>02d05135daa403000689896fafe93231:1070561126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-12-09 08:46:51">26b850451bcbfd102e4d4156bc4bcba4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2023-12-09 15:46:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>c742afccd73f48468f303f6d2165a0a4</sys_id>
+        <sys_metadata>ab4a4671db2432002e38711ebf96197c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_scope_delete display_value="">0689ceaf32894ff4bbc1897bba8a6a09</sys_scope_delete>
+        <sys_update_name>sp_instance_ab4a4671db2432002e38711ebf96197c</sys_update_name>
+        <sys_update_version display_value="sp_instance_ab4a4671db2432002e38711ebf96197c">42d05135dba40300e5aef4a51f961931</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2023-12-09 15:46:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

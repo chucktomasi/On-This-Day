@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function($scope) {
+        <client_script><![CDATA[function($scope, $location) {
   /* widget controller */
   var c = this;
+	
+	$scope.openPage = function(pageID) {
+		console.log(pageID);
+		$location.url('?id=otd_count&otd_page=' + pageID);
+	}
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css>.table-fixed thead {
-  width: 97%;
-}
-.table-fixed tbody {
-  height: 500px;
-  overflow-y: auto;
-  width: 100%;
-}
-.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
-  display: block;
-}
-.table-fixed tbody td, .table-fixed thead &gt; tr&gt; th {
-  float: left;
-  border-bottom-width: 0;
+        <css>.row {
+  line-height:24pt;
+  border: solid 1px #ddd;
 }
 
-.myDefault {
-  color : #428bca;
+div.myList&gt;div:nth-of-type(odd) {
+  background: #eee;
+}
+
+div.heading {
+  font-weight: bold;
+}
+
+.myLink {
+  color:blue;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -54,7 +56,7 @@
 		page.state = gr.state.getDisplayValue();
 		data.page_list.push(page);
 	}
-	gs.debug('len=' + data.page_list);
+	// gs.debug('len=' + data.page_list);
 	
 })();]]></script>
         <servicenow>false</servicenow>
@@ -63,7 +65,7 @@
         <sys_created_on>2017-01-26 20:49:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>819a69bddba032002e38711ebf961956</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name>OTD Page List</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy/>
@@ -71,32 +73,37 @@
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_update_name>sp_widget_819a69bddba032002e38711ebf961956</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2017-02-20 13:58:42</sys_updated_on>
-        <template><![CDATA[
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h4>
-      On This Day In History
-      <a ng-href="?id=otd_new_page" class="pull-right myDefault">
-        <span class="glyphicon glyphicon-plus">
-        </span></a>
-    </h4>
+        <sys_updated_on>2023-12-09 15:45:50</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4>
+        On This Day In History
+        <a ng-href="?id=otd_new_page" class="pull-right myDefault">
+          <span class="glyphicon glyphicon-plus">
+          </span></a>
+      </h4>
+
+    </div>
   </div>
-  <table class="table table-fixed">
-    <thead>
-      <tr>
-        <th class="col-xs-4">Date</th>
-        <th class="col-xs-8">State</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr ng-repeat="page in c.data.page_list">
-        <td class="col-xs-4"><a class="myDefault" ng-href="?id=otd_count&otd_page={{page.sys_id}}">{{page.display_value}}</a></td>
-        <td class="col-xs-8">{{page.state}}</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-]]></template>
+  <div class="myList">
+
+    <div class="row heading">
+      <div class="col-xs-6">Date</div>
+      <div class="col-xs-6">State</div>
+    </div>
+
+    <div class="row" ng-repeat="page in c.data.page_list">
+      <div class="col-xs-6 myLink" ng-click="openPage(page.sys_id)">
+        {{page.display_value}}
+      </div>
+      <div class="col-xs-6">
+        {{page.state}}
+      </div>
+    </div>
+
+  </div>
+
+</div>]]></template>
     </sp_widget>
 </record_update>
