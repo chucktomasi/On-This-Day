@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Google calendar Profile</name>
+        <oauth_entity display_value="Google Calendar Spoke OAuth">7c5cbffedb490210afd3eb2ed396192b</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-03-24 04:56:11</sys_created_on>
+        <sys_id>fc5cb732db890210afd3eb2ed3961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google calendar Profile</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>oauth_entity_profile_fc5cb732db890210afd3eb2ed3961941</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-03-24 04:56:11</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

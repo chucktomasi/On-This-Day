@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>true</in_default_profile>
+        <name>Events</name>
+        <oauth_entity display_value="Google Calendar Spoke OAuth">7c5cbffedb490210afd3eb2ed396192b</oauth_entity>
+        <oauth_entity_scope>https://www.googleapis.com/auth/calendar.events</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-03-24 04:56:11</sys_created_on>
+        <sys_id>345cbffedb490210afd3eb2ed396192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>oauth_entity_scope_345cbffedb490210afd3eb2ed396192c</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-03-24 04:56:11</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>

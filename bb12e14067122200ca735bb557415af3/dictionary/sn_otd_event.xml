@@ -16,5 +16,8 @@
         <index name="index">
             <element name="page"/>
         </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>

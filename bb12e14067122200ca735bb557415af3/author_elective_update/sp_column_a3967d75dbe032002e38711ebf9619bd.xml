@@ -48,11 +48,10 @@
         <update_guid_history>0962ef8587495010c544240893497bdb:-1906757462,b9d0513516a4030066dff097685d3605:-2061900494</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 2023-12-09 08:46:56">b3b890451bcbfd102e4d4156bc4bcb3a</sys_audit_delete>
+        <sys_audit_delete display_value="">b3b890451bcbfd102e4d4156bc4bcb3a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2023-12-09 15:46:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
         <sys_id>4a0812439a404e5aa15c0f4ead069344</sys_id>
         <sys_metadata>a3967d75dbe032002e38711ebf9619bd</sys_metadata>
@@ -61,7 +60,6 @@
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_scope_delete display_value="">0689ceaf32894ff4bbc1897bba8a6a09</sys_scope_delete>
         <sys_update_name>sp_column_a3967d75dbe032002e38711ebf9619bd</sys_update_name>

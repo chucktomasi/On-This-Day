@@ -91,7 +91,6 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2019-07-13 14:47:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
         <sys_id>42694a00d24f4e1ba3605dad953417a9</sys_id>
         <sys_metadata>629a743edba2f340f6d0a422ca96192f</sys_metadata>
@@ -100,7 +99,6 @@
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_scope_delete display_value="">0689ceaf32894ff4bbc1897bba8a6a09</sys_scope_delete>
         <sys_update_name>sys_data_source_629a743edba2f340f6d0a422ca96192f</sys_update_name>

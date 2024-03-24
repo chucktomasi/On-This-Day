@@ -11,12 +11,10 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-09-17 15:08:03</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Active</sys_name>
             <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
             <sys_update_name>sys_documentation_sn_otd_regex_active_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

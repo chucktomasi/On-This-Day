@@ -22,13 +22,11 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2019-08-06 21:11:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>81a9bd66db4b3300a8a21637059619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Creating a mobile function to do swipe to a Service Portal page w/parameter</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_update_name>sys_metadata_link_81a9bd66db4b3300a8a21637059619fd</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>

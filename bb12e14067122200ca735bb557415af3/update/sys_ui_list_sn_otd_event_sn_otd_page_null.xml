@@ -118,7 +118,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-10-15 13:38:54</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>835ca92067222200ca735bb557415a51</sys_id>
@@ -126,7 +125,6 @@
             <sys_name>sn_otd_event</sys_name>
             <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
             <sys_update_name>sys_ui_list_sn_otd_event_sn_otd_page_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

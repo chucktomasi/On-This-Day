@@ -52,11 +52,9 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-02 14:13:53</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_name>Input</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_update_name>sys_dictionary_sn_otd_page_input</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
