@@ -18,65 +18,15 @@ GoogleCalendar.prototype = {
         // this.oauthProfile = gs.getProperty('sn_otd.google_oauth_profile');
     },
 
-    /*
-     * publish the contents to Google Calendar via the REST API
-     *
-     * @param none
-     * @return HTTP status code
-     *
-     */
-    /*
-    publish : function() {
-    	
-    	gs.debug('publish(): otd=' + this.otd);
-    	
-    	try {
-    		
-    		var r = new sn_ws.RESTMessageV2('sn_otd.Google Calendar', 'post');
-    		var endDate = this._add1Day(this.otd);
-    		gs.debug('publish(): start=' + this.otd + ' end=' + endDate);
-    		var body = {
-    			"end": {
-    				"date": endDate
-    			},
-    			"start": {
-    				"date": this.otd
-    			},
-    			"recurrence": ["RRULE:FREQ=YEARLY"],
-    			"summary": "On This Day (" + this.year + ")",
-    			"description": this.pageRec.getValue('output')
-    		};
-    		
-    		var endpoint = 'https://www.googleapis.com/calendar/v3/calendars/' +
-    		this.calendarID + '/events';
-    		r.setEndpoint(endpoint);
-    		r.setAuthenticationProfile('oauth2', this.oauthProfile);
-    		r.setRequestHeader('Content-type', 'application/json');
-    		r.setRequestHeader('Accept', 'application/json');
-    		var bodyText = JSON.stringify(body);
-    		
-    		gs.debug('body=' + bodyText);
-    		r.setRequestBody(bodyText);
-    		
-    		var response = r.execute();
-    		var responseBody = response.getBody();
-    		var httpStatus = response.getStatusCode();
-    		gs.debug(httpStatus + ' - ' + responseBody);
-    		
-    		return httpStatus;
-    	} catch(e) {
-    		gs.addErrorMessage('Error: ' + e.message);
-    	}
+    _add1Day: function(date) {
+
+        var gdt = new GlideDateTime(date);
+        gdt.add(86400000);
+        var newDate = gdt.getDate();
+
+        return newDate.getValue();
+
     },
-    
-    _add1Day : function(date) {
-    	
-    	var gdt = new GlideDateTime(date);
-    	gdt.add(86400000);
-    	var newDate = gdt.getDate();
-    	return newDate.getValue();
-    },
-    */
 
     publish: function() {
 
@@ -86,16 +36,31 @@ GoogleCalendar.prototype = {
             inputs['summary'] = "On This Day (" + this.year + ")"; // String (Full UTF-8) 
             inputs['description'] = this.pageRec.getValue('output'); // String (Full UTF-8) 
             inputs['all_day'] = true; // True/False 
-            inputs['start_time'] = this.otd; // Date/Time 
+			var startGdt = new GlideDateTime(this.otd);
+            inputs['start_time'] = startGdt; // Date/Time 
+            inputs['end_time'] = ""; // Date/Time 
+            inputs['time_zone'] = ""; // Dynamic Choice 
+            inputs['location'] = ""; // String (Full UTF-8) 
+            // inputs['color'] = 3; // Choice 
             inputs['recurrence'] = {
                 "RRULE": "FREQ=YEARLY",
                 "RDATE": "",
                 "EXDATE": ""
             }; // Object 
-            inputs['attendees'] = []; // Array.Object 
+            inputs['create_hangout_meet'] = false; // True/False 
+            inputs['attendees'] = [{
+                "displayName": "",
+                "email": "",
+                "resource": false
+            }]; // inputs['visibility'] = ; // Choice 
+            // inputs['transparency'] = ; // String 
 
             // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
-            var result = sn_fd.FlowAPI.getRunner().action('sn_gcalendar_spoke.create_event_on_calendar').inForeground().withInputs(inputs).run();
+            var result = sn_fd.FlowAPI.getRunner()
+                .action('sn_gcalendar_spoke.create_event_on_calendar')
+                .inForeground()
+                .withInputs(inputs)
+                .run();
             var outputs = result.getOutputs();
 
             // Get Outputs:
@@ -117,13 +82,13 @@ GoogleCalendar.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-08 01:39:10</sys_created_on>
         <sys_id>d64c6680dbc362002e38711ebf96192d</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>GoogleCalendar</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_update_name>sys_script_include_d64c6680dbc362002e38711ebf96192d</sys_update_name>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 22:08:56</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-08 13:57:38</sys_updated_on>
     </sys_script_include>
 </record_update>

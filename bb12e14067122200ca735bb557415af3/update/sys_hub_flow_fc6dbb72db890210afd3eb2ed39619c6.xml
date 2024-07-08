@@ -12,6 +12,7 @@
         <copied_from/>
         <copied_from_name/>
         <description>Publish data from On This Day app to Google Calendar</description>
+        <display_name_after_preview/>
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>create_otd_event</internal_name>
@@ -29,21 +30,22 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-03-24 05:00:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fc6dbb72db890210afd3eb2ed39619c6</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>Create OTD Event</sys_name>
         <sys_overrides/>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy/>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
         <sys_update_name>sys_hub_flow_fc6dbb72db890210afd3eb2ed39619c6</sys_update_name>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-27 13:41:07</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fc6dbb72db890210afd3eb2ed39619c6"/>
@@ -337,10 +339,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-03-24 05:31:09</sys_created_on>
         <sys_id>cd5404cbdb890210afd3eb2ed39619e6</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-27 13:41:07</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <ui_id>26dc2281-d5ac-45a4-8253-ac626232cccc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd5404cbdb890210afd3eb2ed39619e6"/>
@@ -352,10 +354,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-03-24 05:31:09</sys_created_on>
         <sys_id>015404cbdb890210afd3eb2ed39619ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:09</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"name$":"FDdb7d7ba593811010907a408abc861bcb","$COCollectionField":[{"resource":{"$cv":{"$c":"java.lang.String","$v":""}},"displayName":{"$cv":{"$c":"java.lang.String","$v":""}},"email":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FDdb7d7ba593811010907a408abc861bcb":{"$COCollectionField":[{"Attendee":{"resource":"Boolean","resource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Resource\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"displayName":"String","displayName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"Attendee\",\"uiUniqueId\":\"21f4756a-d85b-4d6b-9486-e790b5e1bb5a\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDdb7d7ba593811010907a408abc861bcb\",\"child_label\":\"Attendee\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4dc5bff6-8aa9-465a-b13c-c52588f29623\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDdb7d7ba593811010907a408abc861bcb.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"Attendee\",\"uiUniqueId\":\"21f4756a-d85b-4d6b-9486-e790b5e1bb5a\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDdb7d7ba593811010907a408abc861bcb\",\"child_label\":\"Attendee\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4dc5bff6-8aa9-465a-b13c-c52588f29623\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:19:42</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDdb7d7ba593811010907a408abc861bcb":{"$COCollectionField":[{"Attendee":{"resource":"Boolean","resource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Resource\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"displayName":"String","displayName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"Attendee\",\"uiUniqueId\":\"21f4756a-d85b-4d6b-9486-e790b5e1bb5a\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDdb7d7ba593811010907a408abc861bcb\",\"child_label\":\"Attendee\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4dc5bff6-8aa9-465a-b13c-c52588f29623\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDdb7d7ba593811010907a408abc861bcb.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"Attendee\",\"uiUniqueId\":\"21f4756a-d85b-4d6b-9486-e790b5e1bb5a\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDdb7d7ba593811010907a408abc861bcb\",\"child_label\":\"Attendee\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4dc5bff6-8aa9-465a-b13c-c52588f29623\"}"}},"serializationFormat":"JSON","complexObject":{"name$":"FDdb7d7ba593811010907a408abc861bcb","$COCollectionField":[{"resource":{"$cv":{"$c":"java.lang.String","$v":""}},"displayName":{"$cv":{"$c":"java.lang.String","$v":""}},"email":{"$cv":{"$c":"java.lang.String","$v":""}}}]}}</value>
         <variable display_value="Attendees">f959a640dbb040107d8f75921f961998</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -408,10 +410,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-03-24 05:31:10</sys_created_on>
         <sys_id>c15404cbdb890210afd3eb2ed39619ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:10</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"RDATE":{"$cv":{"$c":"java.lang.String","$v":""}},"RRULE":{"$cv":{"$c":"java.lang.String","$v":""}},"EXDATE":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD9090f4db531c01105546379e568e57c0":{"RDATE":"String","RDATE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recurrance Dates (RDATE)\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"RRULE":"String","RRULE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recurrence Rule (RRULE)\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"EXDATE":"String","EXDATE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Excluding Dates (EXDATE)\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}},"FlowDesigner:FD9090f4db531c01105546379e568e57c0.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9090f4db531c01105546379e568e57c0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Recurrence\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"65000\",\"uiUniqueId\":\"5a4c0a2f-bdb8-4e78-89d6-a871e59696d7\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:21:05</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD9090f4db531c01105546379e568e57c0":{"RDATE":"String","RDATE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recurrance Dates (RDATE)\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"RRULE":"String","RRULE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recurrence Rule (RRULE)\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"EXDATE":"String","EXDATE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Excluding Dates (EXDATE)\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}},"FlowDesigner:FD9090f4db531c01105546379e568e57c0.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9090f4db531c01105546379e568e57c0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Recurrence\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"65000\",\"uiUniqueId\":\"5a4c0a2f-bdb8-4e78-89d6-a871e59696d7\"}"}},"serializationFormat":"JSON","complexObject":{"RDATE":{"$cv":{"$c":"java.lang.String","$v":""}},"RRULE":{"$cv":{"$c":"java.lang.String","$v":"FREQ=YEARLY"}},"EXDATE":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Recurrence">c1c4192477213010d09b72e9be5a9951</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -427,6 +429,20 @@
         <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
         <value>3</value>
         <variable display_value="Color">1468f9f9ebbc30109a720878f1522801</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cd5404cbdb890210afd3eb2ed39619e6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-07-06 18:26:09</sys_created_on>
+        <sys_id>e30b92e497df0a10022dbea0f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:26:09</sys_updated_on>
+        <value>lklt68p3iht2d5j15fjm2t3rqo@group.calendar.google.com</value>
+        <variable display_value="Calendar ID">9959a640dbb040107d8f75921f961960</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=cd5404cbdb890210afd3eb2ed39619e6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -450,6 +466,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:31:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calendar_id</field>
+        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-07-06 18:26:09</sys_created_on>
+        <sys_id>630b92e497df0a10022dbea0f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:26:09</sys_updated_on>
         <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
         <value/>
     </sys_element_mapping>
@@ -527,24 +555,24 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cd5404cbdb890210afd3eb2ed39619e6^sys_idNOT IN5d8448cbdb890210afd3eb2ed3961924"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <input_name>calendar_id</input_name>
         <instance>cd5404cbdb890210afd3eb2ed39619e6</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"calendar_id":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar id \u003d gs.getProperty(\u0027sn_otd.google_calendar_id\u0027);\n\nreturn id;"}}</script>
+        <script>{"calendar_id":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar id \u003d gs.getProperty(\u0027sn_otd.google_calendar_id\u0027);\n\nreturn id;"}}</script>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-03-24 05:31:59</sys_created_on>
         <sys_id>5d8448cbdb890210afd3eb2ed3961924</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:26:09</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cd5404cbdb890210afd3eb2ed39619e6"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fc6dbb72db890210afd3eb2ed39619c6"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=fc6dbb72db890210afd3eb2ed39619c6^sys_idNOT INad5eb3f2db890210afd3eb2ed39619a6,cc9448cbdb890210afd3eb2ed3961929"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">2adebff2db890210afd3eb2ed39619a6</block>
+        <block display_value="">c9995ee097df0a10022dbea0f053afcc</block>
         <comment>Calculate the year from the page date</comment>
         <connected_to/>
         <decision_table/>
@@ -565,10 +593,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-03-24 05:04:59</sys_created_on>
         <sys_id>ad5eb3f2db890210afd3eb2ed39619a6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-27 13:41:07</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <ui_id>e598678e-4a1b-40e9-9f9a-742f58675af1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -607,7 +635,7 @@
     </sys_hub_input_scripts>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">70a40ccbdb890210afd3eb2ed396197e</block>
+        <block display_value="">c5995ee097df0a10022dbea0f053afd8</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -629,10 +657,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-03-24 05:32:11</sys_created_on>
         <sys_id>cc9448cbdb890210afd3eb2ed3961929</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-27 13:41:07</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <ui_id>ba04fc10-d35c-4bb3-8d67-2ce5a92117cf</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
