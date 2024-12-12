@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="11973e5867122200ca735bb557415ada" label="Page" max_length="40" name="sn_otd_page" type="collection">
         <element display="true" hint="Enter the date you would like to review" label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
-        <element label="Input" max_length="4000" name="input" type="string"/>
         <element label="Output" max_length="4000" name="output" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="New" label="State" max_length="40" name="state" type="string">
             <choice>
@@ -11,5 +10,6 @@
             </choice>
         </element>
         <element label="URL" max_length="100" name="url" read_only="true" type="url"/>
+        <element label="Input" max_length="4000" name="input" type="string"/>
     </element>
 </database>

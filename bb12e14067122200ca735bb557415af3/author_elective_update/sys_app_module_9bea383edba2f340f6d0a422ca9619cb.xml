@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Learn JavaScript</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_otd_learn_javascript_import</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9bea383edba2f340f6d0a422ca9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learn JavaScript</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_app_module_9bea383edba2f340f6d0a422ca9619cb</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        <timeline_page/>
+        <title>Learn JavaScript</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On This Day">bb12e14067122200ca735bb557415af3</application>
+        <file_path/>
+        <instance_id>5535ac94dba200d00b9d21c405961932</instance_id>
+        <instance_name>karaoke</instance_name>
+        <name>sys_app_module_9bea383edba2f340f6d0a422ca9619cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Learn JavaScript</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_otd_learn_javascript_import</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9bea383edba2f340f6d0a422ca9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learn JavaScript</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_app_module_9bea383edba2f340f6d0a422ca9619cb</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        <timeline_page/>
+        <title>Learn JavaScript</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1246448505</payload_hash>
+        <record_name>Learn JavaScript</record_name>
+        <reverted_from/>
+        <source>321d05491b5d0e10b623a975624bcb28</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-03-30 15:57:15</sys_created_on>
+        <sys_id>b62d89491b5d0e10b623a975624bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9014559a0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-03-30 15:57:15</sys_updated_on>
+        <type>Module</type>
+        <update_guid>762d89491c5d0e1084994ab1760bb23d</update_guid>
+        <update_guid_history>762d89491c5d0e1084994ab1760bb23d:1246448505</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Learn JavaScript">5cf605771b1e1a106f74cb75604bcbee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-12-12 17:47:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6ea9eb93b7874bc9aebee07110e9ae81</sys_id>
+        <sys_metadata>9bea383edba2f340f6d0a422ca9619cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learn JavaScript</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_scope_delete display_value="">0689ceaf32894ff4bbc1897bba8a6a09</sys_scope_delete>
+        <sys_update_name>sys_app_module_9bea383edba2f340f6d0a422ca9619cb</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9bea383edba2f340f6d0a422ca9619cb">b62d89491b5d0e10b623a975624bcb3d</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-12-12 17:47:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

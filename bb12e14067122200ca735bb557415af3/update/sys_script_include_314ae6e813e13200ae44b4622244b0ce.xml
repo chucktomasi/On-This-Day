@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Updated parser that uses MediaWiki REST API to retrieve information w/less RegEx use.</description>
+        <mobile_callable>false</mobile_callable>
         <name>Parser2</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var Parser2 = Class.create();
 Parser2.prototype = {
     initialize: function(pageRec) {

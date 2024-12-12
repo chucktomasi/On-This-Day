@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_set">
+    <sys_export_set action="INSERT_OR_UPDATE">
+        <append_timestamp>false</append_timestamp>
+        <export_definition display_value="OTD Events">48f389bf1bda1a106f74cb75604bcba5</export_definition>
+        <export_target display_value="On This Day">12c3497f1bda1a106f74cb75604bcb7b</export_target>
+        <file_name>otd_events.xml</file_name>
+        <format>XML</format>
+        <max_rows>0</max_rows>
+        <name>OTD Events</name>
+        <sys_class_name>sys_export_set</sys_class_name>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-12-12 17:38:57</sys_created_on>
+        <sys_id>88e481731b1e1a106f74cb75604bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OTD Events</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_export_set_88e481731b1e1a106f74cb75604bcb5c</sys_update_name>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-12-12 17:38:57</sys_updated_on>
+        <use_display_value>false</use_display_value>
+        <use_label>false</use_label>
+    </sys_export_set>
+</record_update>

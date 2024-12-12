@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sn_otd_output_patterns" version="2" view="exp_de16405331b1e1a106f74cb75604bcb19">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>conditions</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>0c8485331b1e1a106f74cb75604bcb58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>008485331b1e1a106f74cb75604bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>048485331b1e1a106f74cb75604bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>pattern</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>088485331b1e1a106f74cb75604bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>first_line</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>0c8485331b1e1a106f74cb75604bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>008485331b1e1a106f74cb75604bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>048485331b1e1a106f74cb75604bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_id</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>088485331b1e1a106f74cb75604bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>0c8485331b1e1a106f74cb75604bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>008485331b1e1a106f74cb75604bcb5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>048485331b1e1a106f74cb75604bcb5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="sn_otd_output_patterns" element="NULL" name="sn_otd_output_patterns" parent="NULL" relationship="NULL" sys_domain="global" view="008445331b1e1a106f74cb75604bcbe4">cc8485331b1e1a106f74cb75604bcb57</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_id>088485331b1e1a106f74cb75604bcb5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sn_otd_output_patterns</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2024-12-12 17:36:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc8485331b1e1a106f74cb75604bcb57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_otd_output_patterns</sys_name>
+            <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+            <sys_update_name>sys_ui_list_sn_otd_output_patterns_exp_de16405331b1e1a106f74cb75604bcb19</sys_update_name>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2024-12-12 17:36:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Exp_de16405331b1e1a106f74cb75604bcb19" name="exp_de16405331b1e1a106f74cb75604bcb19">008445331b1e1a106f74cb75604bcbe4</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

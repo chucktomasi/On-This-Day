@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Learn JavaScript</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_otd_learn_javascript_import</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">c81a2094db2200102a689ee6db9619bb</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-13 14:45:00</sys_created_on>
+        <sys_id>43eaf43edba2f340f6d0a422ca961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sn Otd Learn Javascript Import</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_db_object_43eaf43edba2f340f6d0a422ca961945</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-13 14:45:00</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On This Day">bb12e14067122200ca735bb557415af3</application>
+        <file_path/>
+        <instance_id>5535ac94dba200d00b9d21c405961932</instance_id>
+        <instance_name>karaoke</instance_name>
+        <name>sys_db_object_43eaf43edba2f340f6d0a422ca961945</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Learn JavaScript</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_otd_learn_javascript_import</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">c81a2094db2200102a689ee6db9619bb</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-13 14:45:00</sys_created_on>
+        <sys_id>43eaf43edba2f340f6d0a422ca961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sn Otd Learn Javascript Import</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_db_object_43eaf43edba2f340f6d0a422ca961945</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-13 14:45:00</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>]]></payload>
+        <payload_hash>-1123535712</payload_hash>
+        <record_name>Learn JavaScript</record_name>
+        <reverted_from/>
+        <source>321d05491b5d0e10b623a975624bcb28</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-03-30 15:57:03</sys_created_on>
+        <sys_id>802d45491b5d0e10b623a975624bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9014270c0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-03-30 15:57:03</sys_updated_on>
+        <type>Table</type>
+        <update_guid>8c2d45492a5d0e10c983d7a59d7afdb6</update_guid>
+        <update_guid_history>8c2d45492a5d0e10c983d7a59d7afdb6:0,002d4549725d0e109fc8532df27956b5:-1578590236</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-12-12 17:47:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>bde9b12085e84414976867832e658461</sys_id>
+        <sys_metadata>43eaf43edba2f340f6d0a422ca961945</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sn Otd Learn Javascript Import</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_scope_delete display_value="">0689ceaf32894ff4bbc1897bba8a6a09</sys_scope_delete>
+        <sys_update_name>sys_db_object_43eaf43edba2f340f6d0a422ca961945</sys_update_name>
+        <sys_update_version display_value="sys_db_object_43eaf43edba2f340f6d0a422ca961945">802d45491b5d0e10b623a975624bcbb7</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-12-12 17:47:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

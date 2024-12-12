@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="43eaf43edba2f340f6d0a422ca961945" extends="sys_import_set_row" label="Learn JavaScript" max_length="40" name="sn_otd_learn_javascript_import" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="396" name="u_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Published Date" label="Published Date" max_length="40" name="u_published_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="88" name="u_title" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Video URL" label="Video URL" max_length="43" name="u_video_url" type="string"/>
-    </element>
-</database>

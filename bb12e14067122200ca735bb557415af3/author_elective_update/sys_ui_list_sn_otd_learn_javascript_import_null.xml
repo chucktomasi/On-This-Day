@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="sn_otd_learn_javascript_import" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>1bea383edba2f340f6d0a422ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>13ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>93ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>17ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>97ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>1bea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sn_otd_learn_javascript_import</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bea383edba2f340f6d0a422ca9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_otd_learn_javascript_import</sys_name>
+            <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+            <sys_update_name>sys_ui_list_sn_otd_learn_javascript_import_null</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On This Day">bb12e14067122200ca735bb557415af3</application>
+        <file_path/>
+        <instance_id>5535ac94dba200d00b9d21c405961932</instance_id>
+        <instance_name>karaoke</instance_name>
+        <name>sys_ui_list_sn_otd_learn_javascript_import_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sn_otd_learn_javascript_import" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>1bea383edba2f340f6d0a422ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>13ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>93ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>17ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>97ea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="sn_otd_learn_javascript_import" element="NULL" name="sn_otd_learn_javascript_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bea383edba2f340f6d0a422ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_id>1bea383edba2f340f6d0a422ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sn_otd_learn_javascript_import</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2019-07-13 14:45:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bea383edba2f340f6d0a422ca9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_otd_learn_javascript_import</sys_name>
+            <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+            <sys_update_name>sys_ui_list_sn_otd_learn_javascript_import_null</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2019-07-13 14:45:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>]]></payload>
+        <payload_hash>110879133</payload_hash>
+        <record_name>Learn JavaScript</record_name>
+        <reverted_from/>
+        <source>321d05491b5d0e10b623a975624bcb28</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-03-30 15:57:27</sys_created_on>
+        <sys_id>b13dcd491b5d0e10b623a975624bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e901484a40000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-03-30 15:57:27</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>713dcd491d5d0e10df16e8eeaa3e9a3d</update_guid>
+        <update_guid_history>713dcd491d5d0e10df16e8eeaa3e9a3d:110879133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-12-12 17:47:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>7a48db4e43374b55a47f1ab12d8bc1b1</sys_id>
+        <sys_metadata>9bea383edba2f340f6d0a422ca9619c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_otd_learn_javascript_import</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_parent display_value="">43eaf43edba2f340f6d0a422ca961945</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_scope_delete display_value="">0689ceaf32894ff4bbc1897bba8a6a09</sys_scope_delete>
+        <sys_update_name>sys_ui_list_sn_otd_learn_javascript_import_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_sn_otd_learn_javascript_import_null">b13dcd491b5d0e10b623a975624bcb3d</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-12-12 17:47:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

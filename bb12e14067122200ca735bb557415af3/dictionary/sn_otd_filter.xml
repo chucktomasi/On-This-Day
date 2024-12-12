@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0dc5218067122200ca735bb557415a7c" label="Filter" max_length="40" name="sn_otd_filter" type="collection">
+        <element label="RegEx" max_length="80" name="regex" type="string"/>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element choice="1" choice_field="type" choice_table="sn_otd_event" label="Applies to type" max_length="40" name="applies_to_type" type="choice">
             <choice/>
         </element>
-        <element label="RegEx" max_length="80" name="regex" type="string"/>
     </element>
 </database>

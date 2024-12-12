@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Output utilities for On This Day app</description>
+        <mobile_callable>false</mobile_callable>
         <name>Output</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var Output = Class.create();
 
 EVENT_TABLE    = 'sn_otd_event';

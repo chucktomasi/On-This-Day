@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>year,text,review,type,output,page,sys_class_name,sys_created_on,sys_created_by,sys_id,sys_tags,sys_updated_on,sys_updated_by,sys_mod_count,ref_sn_otd_person.born,ref_sn_otd_person.died,ref_sn_otd_person.name,ref_sn_otd_person.title</field_list>
+        <filter/>
+        <name>OTD Events</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-12-12 17:35:33</sys_created_on>
+        <sys_id>48f389bf1bda1a106f74cb75604bcba5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>OTD Events</sys_name>
+        <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
+        <sys_update_name>sys_export_definition_48f389bf1bda1a106f74cb75604bcba5</sys_update_name>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-12-12 17:35:33</sys_updated_on>
+        <table_name>sn_otd_event</table_name>
+        <view display_value="Exp_d48f389bf1bda1a106f74cb75604bcba5" name="exp_d48f389bf1bda1a106f74cb75604bcba5">60448dff1bda1a106f74cb75604bcb5a</view>
+    </sys_export_definition>
+</record_update>
