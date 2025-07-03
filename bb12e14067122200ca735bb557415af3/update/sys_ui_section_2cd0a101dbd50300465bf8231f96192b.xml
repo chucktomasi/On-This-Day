@@ -3,70 +3,98 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
             <position>0</position>
-            <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2018-07-14 18:33:54</sys_created_on>
-            <sys_id>cf9cc321db57d34017fb5275ca9619ad</sys_id>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2025-07-03 18:50:13</sys_created_on>
+            <sys_id>e9103e891b2ea6106f74cb75604bcb0f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_otd_regex" sys_domain="global" view="Default view">2cd0a101dbd50300465bf8231f96192b</sys_ui_section>
-            <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-07-14 18:33:54</sys_updated_on>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2025-07-03 18:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>pattern</element>
+            <element>.begin_split</element>
             <position>1</position>
-            <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2018-07-14 18:33:54</sys_created_on>
-            <sys_id>879cc321db57d34017fb5275ca9619ae</sys_id>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2025-07-03 18:50:13</sys_created_on>
+            <sys_id>25103e891b2ea6106f74cb75604bcb42</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_otd_regex" sys_domain="global" view="Default view">2cd0a101dbd50300465bf8231f96192b</sys_ui_section>
-            <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-07-14 18:33:54</sys_updated_on>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2025-07-03 18:50:13</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pattern</element>
+            <position>2</position>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2025-07-03 18:50:13</sys_created_on>
+            <sys_id>2d103e891b2ea6106f74cb75604bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_otd_regex" sys_domain="global" view="Default view">2cd0a101dbd50300465bf8231f96192b</sys_ui_section>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2025-07-03 18:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>replace</element>
-            <position>2</position>
-            <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2018-07-14 18:33:54</sys_created_on>
-            <sys_id>0b9cc321db57d34017fb5275ca9619ae</sys_id>
+            <position>3</position>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2025-07-03 18:50:13</sys_created_on>
+            <sys_id>25103e891b2ea6106f74cb75604bcb43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_otd_regex" sys_domain="global" view="Default view">2cd0a101dbd50300465bf8231f96192b</sys_ui_section>
-            <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-07-14 18:33:54</sys_updated_on>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2025-07-03 18:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>order</element>
-            <position>3</position>
-            <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2018-07-14 18:33:54</sys_created_on>
-            <sys_id>8b9cc321db57d34017fb5275ca9619ae</sys_id>
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2025-07-03 18:50:13</sys_created_on>
+            <sys_id>2d103e891b2ea6106f74cb75604bcb43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_otd_regex" sys_domain="global" view="Default view">2cd0a101dbd50300465bf8231f96192b</sys_ui_section>
-            <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-07-14 18:33:54</sys_updated_on>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2025-07-03 18:50:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>5</position>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2025-07-03 18:50:13</sys_created_on>
+            <sys_id>25103e891b2ea6106f74cb75604bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_otd_regex" sys_domain="global" view="Default view">2cd0a101dbd50300465bf8231f96192b</sys_ui_section>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2025-07-03 18:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>4</position>
-            <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2018-07-14 18:33:54</sys_created_on>
-            <sys_id>0f9cc321db57d34017fb5275ca9619ae</sys_id>
+            <position>6</position>
+            <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+            <sys_created_on>2025-07-03 18:50:13</sys_created_on>
+            <sys_id>2d103e891b2ea6106f74cb75604bcb44</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_otd_regex" sys_domain="global" view="Default view">2cd0a101dbd50300465bf8231f96192b</sys_ui_section>
-            <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2018-07-14 18:33:54</sys_updated_on>
+            <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+            <sys_updated_on>2025-07-03 18:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
