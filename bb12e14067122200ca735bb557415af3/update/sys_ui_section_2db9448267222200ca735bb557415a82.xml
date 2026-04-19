@@ -2,6 +2,7 @@
     <sys_ui_section caption="Instructions" section_id="2db9448267222200ca735bb557415a82" sys_domain="global" table="sn_otd_output_patterns" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2016-10-19 22:18:48</sys_created_on>
             <sys_id>39b9448267222200ca735bb557415a87</sys_id>

@@ -108,7 +108,7 @@
         <update_guid_history>762d89491c5d0e1084994ab1760bb23d:1246448505</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Learn JavaScript">5cf605771b1e1a106f74cb75604bcbee</sys_audit_delete>
+        <sys_audit_delete display_value="">5cf605771b1e1a106f74cb75604bcbee</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-12-12 17:47:17</sys_created_on>

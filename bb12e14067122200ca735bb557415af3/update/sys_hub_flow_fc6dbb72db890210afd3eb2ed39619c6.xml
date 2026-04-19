@@ -48,7 +48,9 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <type>subflow</type>
+        <updation_source/>
         <version>1</version>
+        <version_record/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fc6dbb72db890210afd3eb2ed39619c6"/>
     <sys_variable_value action="delete_multiple" query="document_key=fc6dbb72db890210afd3eb2ed39619c6"/>
@@ -328,9 +330,8 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=fc6dbb72db890210afd3eb2ed39619c6^sys_idNOT INcd5404cbdb890210afd3eb2ed39619e6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Event">5159a640dbb040107d8f75921f96195e</action_type>
-        <action_type_parent display_value="Create Event">20b6e1bfdb2040104acf9cfadb9619b7</action_type_parent>
+        <action_type display_value="">5159a640dbb040107d8f75921f96195e</action_type>
+        <action_type_parent display_value="">20b6e1bfdb2040104acf9cfadb9619b7</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot/>
@@ -348,6 +349,7 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <ui_id>26dc2281-d5ac-45a4-8253-ac626232cccc</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd5404cbdb890210afd3eb2ed39619e6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -362,7 +364,7 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-06 18:19:42</sys_updated_on>
         <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDdb7d7ba593811010907a408abc861bcb":{"$COCollectionField":[{"Attendee":{"resource":"Boolean","resource.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Resource\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"displayName":"String","displayName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"Attendee\",\"uiUniqueId\":\"21f4756a-d85b-4d6b-9486-e790b5e1bb5a\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDdb7d7ba593811010907a408abc861bcb\",\"child_label\":\"Attendee\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4dc5bff6-8aa9-465a-b13c-c52588f29623\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDdb7d7ba593811010907a408abc861bcb.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Attendees\",\"mandatory\":\"false\",\"child_name\":\"Attendee\",\"uiUniqueId\":\"21f4756a-d85b-4d6b-9486-e790b5e1bb5a\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDdb7d7ba593811010907a408abc861bcb\",\"child_label\":\"Attendee\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4dc5bff6-8aa9-465a-b13c-c52588f29623\"}"}},"serializationFormat":"JSON","complexObject":{"name$":"FDdb7d7ba593811010907a408abc861bcb","$COCollectionField":[{"resource":{"$cv":{"$c":"java.lang.String","$v":""}},"displayName":{"$cv":{"$c":"java.lang.String","$v":""}},"email":{"$cv":{"$c":"java.lang.String","$v":""}}}]}}</value>
-        <variable display_value="Attendees">f959a640dbb040107d8f75921f961998</variable>
+        <variable display_value="">f959a640dbb040107d8f75921f961998</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -376,7 +378,7 @@
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
         <value>1</value>
-        <variable display_value="All Day Event">120ed2f777113010d09b72e9be5a99f7</variable>
+        <variable display_value="">120ed2f777113010d09b72e9be5a99f7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -390,7 +392,7 @@
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
         <value/>
-        <variable display_value="Start Time">2159a640dbb040107d8f75921f961971</variable>
+        <variable display_value="">2159a640dbb040107d8f75921f961971</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -404,7 +406,7 @@
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
         <value>-- None --</value>
-        <variable display_value="Time Zone">a959a640dbb040107d8f75921f96197b</variable>
+        <variable display_value="">a959a640dbb040107d8f75921f96197b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -418,7 +420,7 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-06 18:21:05</sys_updated_on>
         <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD9090f4db531c01105546379e568e57c0":{"RDATE":"String","RDATE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recurrance Dates (RDATE)\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"RRULE":"String","RRULE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Recurrence Rule (RRULE)\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"EXDATE":"String","EXDATE.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Excluding Dates (EXDATE)\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}},"FlowDesigner:FD9090f4db531c01105546379e568e57c0.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9090f4db531c01105546379e568e57c0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Recurrence\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"65000\",\"uiUniqueId\":\"5a4c0a2f-bdb8-4e78-89d6-a871e59696d7\"}"}},"serializationFormat":"JSON","complexObject":{"RDATE":{"$cv":{"$c":"java.lang.String","$v":""}},"RRULE":{"$cv":{"$c":"java.lang.String","$v":"FREQ=YEARLY"}},"EXDATE":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
-        <variable display_value="Recurrence">c1c4192477213010d09b72e9be5a9951</variable>
+        <variable display_value="">c1c4192477213010d09b72e9be5a9951</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -432,7 +434,7 @@
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
         <value>3</value>
-        <variable display_value="Color">1468f9f9ebbc30109a720878f1522801</variable>
+        <variable display_value="">1468f9f9ebbc30109a720878f1522801</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -446,117 +448,8 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-06 18:26:09</sys_updated_on>
         <value>lklt68p3iht2d5j15fjm2t3rqo@group.calendar.google.com</value>
-        <variable display_value="Calendar ID">9959a640dbb040107d8f75921f961960</variable>
+        <variable display_value="">9959a640dbb040107d8f75921f961960</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=cd5404cbdb890210afd3eb2ed39619e6"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>all_day</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:59</sys_created_on>
-        <sys_id>5d8448cbdb890210afd3eb2ed3961926</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>attendees</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:09</sys_created_on>
-        <sys_id>c95404cbdb890210afd3eb2ed39619e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>calendar_id</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
-        <sys_created_on>2024-07-06 18:26:09</sys_created_on>
-        <sys_id>630b92e497df0a10022dbea0f053af6c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
-        <sys_updated_on>2024-07-06 18:26:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>color</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:59</sys_created_on>
-        <sys_id>518448cbdb890210afd3eb2ed3961926</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:59</sys_created_on>
-        <sys_id>158448cbdb890210afd3eb2ed3961926</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value>{{subflow.page.output}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>recurrence</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:09</sys_created_on>
-        <sys_id>8d5404cbdb890210afd3eb2ed39619e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:09</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>start_time</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:59</sys_created_on>
-        <sys_id>998448cbdb890210afd3eb2ed3961926</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value>{{subflow.page.date}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>summary</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:59</sys_created_on>
-        <sys_id>9d8448cbdb890210afd3eb2ed3961925</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value>On This Day ({{flow_variable.year}})</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>time_zone</field>
-        <id>cd5404cbdb890210afd3eb2ed39619e6</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-03-24 05:31:59</sys_created_on>
-        <sys_id>d58448cbdb890210afd3eb2ed3961926</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-03-24 05:31:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5159a640dbb040107d8f75921f96195e</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cd5404cbdb890210afd3eb2ed39619e6^sys_idNOT IN5d8448cbdb890210afd3eb2ed3961924"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -601,6 +494,7 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <ui_id>e598678e-4a1b-40e9-9f9a-742f58675af1</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -665,6 +559,7 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-06 18:26:48</sys_updated_on>
         <ui_id>ba04fc10-d35c-4bb3-8d67-2ce5a92117cf</ui_id>
+        <updation_source/>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
@@ -783,7 +678,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fc6dbb72db890210afd3eb2ed39619c6^sys_idNOT IN2adebff2db890210afd3eb2ed3961992"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>page</element>
         <help/>
@@ -797,18 +691,17 @@
         <sys_created_on>2024-03-24 05:07:14</sys_created_on>
         <sys_id>2adebff2db890210afd3eb2ed3961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy/>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fc6dbb72db890210afd3eb2ed39619c6_page_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:07:14</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fc6dbb72db890210afd3eb2ed39619c6"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fc6dbb72db890210afd3eb2ed39619c6^sys_idNOT IN10a3c08bdb890210afd3eb2ed396194a,379db3b2db890210afd3eb2ed3961977"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>error_message</element>
         <help/>
@@ -822,11 +715,11 @@
         <sys_created_on>2024-03-24 05:28:06</sys_created_on>
         <sys_id>10a3c08bdb890210afd3eb2ed396194a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error message</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy/>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_fc6dbb72db890210afd3eb2ed39619c6_error_message_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:28:06</sys_updated_on>
         <url/>
@@ -845,11 +738,11 @@
         <sys_created_on>2024-03-24 05:01:52</sys_created_on>
         <sys_id>379db3b2db890210afd3eb2ed3961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="On This Day" source="sn_otd">bb12e14067122200ca735bb557415af3</sys_package>
         <sys_policy/>
         <sys_scope display_value="On This Day">bb12e14067122200ca735bb557415af3</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_fc6dbb72db890210afd3eb2ed39619c6_status_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-03-24 05:01:52</sys_updated_on>
         <url/>

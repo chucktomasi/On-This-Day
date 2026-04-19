@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>date</element>
-            <list_id display_value="sn_otd_page" element="NULL" name="sn_otd_page" parent="NULL" relationship="NULL" sys_domain="global" view="71782050db2200102a689ee6db9619d3">cf82ce4ddb2832002e38711ebf9619f0</list_id>
+            <list_id display_value="sn_otd_page" element="NULL" name="sn_otd_page" parent="NULL" relationship="NULL" sys_domain="global" view="285090639820221055904c91e2b654a9">cf82ce4ddb2832002e38711ebf9619f0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-03-16 16:41:19</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">71782050db2200102a689ee6db9619d3</view>
+            <view display_value="Reference List" name="sys_ref_list">285090639820221055904c91e2b654a9</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -2,6 +2,7 @@
     <sys_ui_section caption="" section_id="82e9ecf2db3222002e38711ebf9619e4" sys_domain="global" table="sn_otd_page" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>chuck.tomasi</sys_created_by>
             <sys_created_on>2017-03-14 16:27:44</sys_created_on>
             <sys_id>3271f27813653200ae44b4622244b083</sys_id>

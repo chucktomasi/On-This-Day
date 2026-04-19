@@ -5,6 +5,7 @@
         <jwt_provider/>
         <name>Google calendar Profile</name>
         <oauth_entity display_value="Google Calendar Spoke OAuth">7c5cbffedb490210afd3eb2ed396192b</oauth_entity>
+        <oauth_resources/>
         <saml2_assertion_producer/>
         <sys_class_name>oauth_entity_profile</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>

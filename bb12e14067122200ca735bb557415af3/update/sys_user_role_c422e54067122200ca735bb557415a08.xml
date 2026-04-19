@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>2RVsghS0Fe9qnCu6k4wy3jSYNMKK0etuRBU6HQUQu9Y=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>sn_otd.user</name>
